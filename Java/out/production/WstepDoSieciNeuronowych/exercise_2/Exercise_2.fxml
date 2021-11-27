@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="exercise_2.Exercise_2Controller">
+  <children>
+    <HBox layoutX="0.0" layoutY="0.0" prefHeight="600.0" prefWidth="900.0">
+      <children>
+        <Pane prefHeight="600.0" prefWidth="14.0" />
+        <Pane fx:id="pixelsPane" maxHeight="600.0" maxWidth="600.0" prefHeight="586.0" prefWidth="586.0" />
+        <VBox  prefHeight="600.0" prefWidth="300.0">
+          <children>
+            <Button mnemonicParsing="false" onAction="#recogniseImage" prefHeight="68.0" prefWidth="300.0" text="Odszum Obrazek" />
+            <Button mnemonicParsing="false" onAction="#safeInput" prefHeight="68.0" prefWidth="300.0" text="Naucz się obecnego obrazka" />
+            <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clearBoard" prefHeight="68.0" prefWidth="300.0" text="Wyczysć planszę" />
+            <Label prefHeight="36.0" prefWidth="300.0" text="Label" />
+            <VBox fx:id="rightPanel" prefHeight="360.0" prefWidth="300.0" />
+          </children>
+        </VBox>
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>
